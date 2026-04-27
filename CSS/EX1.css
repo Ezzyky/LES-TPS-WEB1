@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana;
+}
+h1,h2{
+    color: blue;
+}
+p.info{
+    font-style: italic;
+}
+#important{
+    color: red;
+    font-weight: bold;
+}
+div p{
+    background-color: gray;
+}
+h2+p{
+    text-decoration: underline;
+}
+li{
+    color:green;
+}
+ul li:first-child{
+    font: bold;
+}
+ul li:hover:last-child{
+    font-style: italic;
+    color:orange;
+}
+a{
+    color:violet;
+    
+}
+a:hover{
+color: red;
+}
