@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire - Vos coordonnées et vos goûts</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+
+        <!-- ===== القسم الأول: VOS COORDONNEES ===== -->
+        <h2>VOS COORDONNEES</h2>
+
+        <!-- nom -->
+        <label>nom :</label>
+        <input type="text" name="nom" placeholder="Votre nom">
+        <br><br>
+
+        <!-- prenom -->
+        <label>prenom :</label>
+        <input type="text" name="prenom" placeholder="Votre prenom">
+        <br><br>
+
+        <!-- mail -->
+        <label>mail :</label>
+        <input type="email" name="mail" placeholder="Votre mail">
+        <br><br>
+
+        <!-- code -->
+        <label>code :</label>
+        <input type="text" name="code" placeholder="code">
+        <br><br>
+
+        <!-- homme -->
+        <label>homme :</label>
+        <input type="radio" name="sexe" value="homme"> ○
+        <br><br>
+
+        <!-- femme -->
+        <label>femme :</label>
+        <input type="radio" name="sexe" value="femme"> ○
+        <br><br>
+
+        <!-- pays -->
+        <label>votre pays :</label>
+        <select name="pays">
+            <option value="maroc">Maroc</option>
+            <option value="france">France</option>
+            <option value="algerie">Algérie</option>
+            <option value="tunisie">Tunisie</option>
+            <option value="autres">Autres</option>
+        </select>
+        <br><br>
+
+        <!-- ===== القسم الثاني: vos gouts ===== -->
+        <h2>vos gouts</h2>
+
+        <!-- pommes -->
+        <label>pommes :</label>
+        <input type="checkbox" name="pommes" value="pommes"> ☐
+        <br><br>
+
+        <!-- poires -->
+        <label>poires :</label>
+        <input type="checkbox" name="poires" value="poires"> ☐
+        <br><br>
+
+        <!-- décrivez nous (textarea) -->
+        <label>décrivez nous :</label>
+        <textarea name="description" placeholder="Exprimez vous ici ..."></textarea>
+        <br><br>
+
+        <!-- vos gouts en details -->
+        <label>vos gouts en details :</label>
+        <input type="text" name="details" placeholder="vos gouts en details">
+        <br><br>
+
+        <!-- bouton d'envoi -->
+        <button type="submit">Envoyer</button>
+
+    </form>
+
+</body>
+</html>
