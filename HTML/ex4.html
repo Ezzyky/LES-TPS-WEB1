@@ -5,10 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+</style>
 <body>
-    <table border="1">
+    <table  >
         <tr>
-            <th style="background-color: yellow; text-align: left;" colspan="3">cette colonne ocupe toute la largeur du tableau, la coleur du fond est jaune</th>
+            <th style=" padding: 8px; background-color: yellow; text-align: left;" colspan="3">cette colonne ocupe toute la largeur du tableau, la coleur du fond est jaune</th>
         </tr>
         <tr>
             <td style="background-color: green;text-align: left;">alignement a gauche</td>
@@ -26,9 +42,7 @@
         </tr>
         <tr>
             <td colspan="2" style="background-color: rgb(255, 255, 0); vertical-align: middle;">fusion de deux cellules</td>
-            <td>
-                <img src="Screenshot 2026-04-19 160320.png" alt="" width="333" height="155">
-            </td>
+            <td><img src="Screenshot 2026-04-19 160320.png" alt="" width="300px" ></td>
         </tr>
     </table>
 </body>
